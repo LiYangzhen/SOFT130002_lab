@@ -1,0 +1,226 @@
+html {
+    font-size: 62.5%;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Noto+Sans+SC", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+}
+
+h1 {
+    margin-left: 15%;
+    font-size: 3rem;
+}
+
+header {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    height: 6rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: row;
+    box-shadow: 0 0 5px darkgrey;
+}
+
+.banner {
+    color: black;
+    z-index: 1;
+    margin-right: auto;
+    display: flex;
+}
+
+.banner img {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 3em;
+}
+
+.banner a.link, a.a_right {
+    font-size: 1.7rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3px;
+    color: gray;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+.banner a.link:hover, a.a_right:hover {
+    color: black;
+}
+
+.banner a.link.highlight {
+    color: black;
+    border-bottom: cornflowerblue 3px solid;
+    font-weight: bold;
+}
+
+.user {
+    margin-top: 1.5rem;
+    color: grey;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-right: 4rem;
+}
+
+.a_right{
+    margin-right: 3rem;
+    font-weight: bold;
+}
+
+section {
+    background-color: #ffffff;
+    box-shadow: 0 0 5px darkgrey;
+}
+
+section.contents {
+    width: 52%;
+    margin: 2rem 2rem 4rem 14%;
+}
+
+section.contents li {
+    padding: 1rem 3rem 2rem;
+    font-size: 1.6rem;
+    border-bottom: #f6f6f6 2px solid;
+}
+
+section.contents li p {
+    margin-left: 0.5rem;
+    overflow: hidden;
+}
+
+section.contents li div {
+    color: #0084ff;
+    background: #e5f2ff;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0.5rem 1rem;
+    width: 7rem;
+    white-space: nowrap;
+}
+
+section.contents p a {
+    text-decoration: none;
+    color: #255b9f;
+}
+
+main aside {
+    background-color: #ffffff;
+    box-shadow: 0 0 5px darkgrey;
+    width: 19%;
+    float: right;
+    margin-right: 14%;
+}
+
+main aside ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+main aside li {
+    margin: 0;
+    padding: 2rem;
+    font-size: 1.6rem;
+}
+
+main aside a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+
+.pagination {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.pagination ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pagination ul li {
+    padding: 0 10px;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 2rem;
+    min-width: 36px;
+    min-height: 28px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ffffff;
+    color: #606266;
+    border-radius: 6px;
+    margin: 0 1px;
+    border: 1px solid #ebebeb;
+}
+
+.pagination ul li:hover {
+    transform: scale(1.1);
+    background-color: #F4F6F8;
+}
+
+.pagination li.active {
+    background: #98A6AD;
+    color: white;
+    cursor: not-allowed;
+}
+
+section.register {
+    margin: 2rem 14% 4rem;
+    font-size: 1.6rem;
+}
+
+section.register form {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    line-height: 4rem;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    height: 2.5rem;
+    width: 40rem;
+}
+
+input[name="captcha"] {
+    width: 8rem;
+    height: 2.2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+textarea {
+    height: 20rem;
+    width: 40rem;
+    background: white;
+    resize: none;
+}
+
+input[type="checkbox"]
+.radio {
+    margin-right: 2rem;
+}
